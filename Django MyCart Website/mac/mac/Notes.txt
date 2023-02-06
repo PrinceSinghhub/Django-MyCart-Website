@@ -1,0 +1,25 @@
+app: app is a plugeable web application
+and many app in one project or one app in multiple project
+
+Notes in django if we want to load static file then use this syntex
+{% load static %}
+
+CD N: Content Delivey Network
+
+Migration: migrantion means sgtore the changes in app or models
+command: python manage.py migrate
+
+python manage.py makemigrations
+this command use to store the changes in migrations folder in shop
+
+python manage.py migrate
+use to save change in database
+
+how to create a admin pannel for show models or database
+PS F:\Django MyCart Website\mac> python manage.py createsuperuser
+Username (leave blank to use 'hp'): CodexCoder
+Email address: thisisprincesingh@gmail.com
+Password: 2005@Anushka
+Password (again):2005@Anushka
+Superuser created successfully.
+
